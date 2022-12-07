@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Mern firstName={"Khaled"}  lastName={"Ammar"} age={24} hairColor={"black"} />
-      <Mern firstName={"ahmad"}  lastName={"jaser"} age={27} hairColor={"white"} />
+      <Mern firstName={"ahmad"}  lastName={"tome"} age={27} hairColor={"white"} />
 
       
 
