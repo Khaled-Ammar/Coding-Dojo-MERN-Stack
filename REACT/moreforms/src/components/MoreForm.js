@@ -5,13 +5,16 @@ import React, { useState } from  'react';
 const MoreForm = (props) => {
     const [firstname, setfirstname] = useState("");
     const [firstnameError, setfirstnameError] = useState("");
-    
+
     const [lastname, setlastname] = useState("");
     const [lastnameError, setlastnameError] = useState("");
+
     const [email, setemail] = useState("");
     const [emailError, setemailError] = useState("");
+
     const [password, setpassword] = useState("");
     const [passwordError, setpasswordError] = useState("");
+    
     // const [hasBeenSubmitted, setHasBeenSubmitted] = useState(false);
         
     const createUser = (e) => {
