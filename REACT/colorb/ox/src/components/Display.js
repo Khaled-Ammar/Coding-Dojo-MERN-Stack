@@ -8,7 +8,7 @@ const Displays = (props) => {
     const sumbitHandle = (e)=>{
         e.preventDefault()
         setColor(color)
-        setBox((box)=>[...box,color])
+        setBox((box)=>[color ,...box])
     }
     const styles= {
         display: 'flex',
