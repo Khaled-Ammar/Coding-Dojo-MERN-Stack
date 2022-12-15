@@ -14,7 +14,7 @@ function App() {
       <Router>
       <First path="/home" />
       <Seco path = "/:str"/>
-      <Therd path = "/:str/:bcolor/:color"/>
+      <Therd path = "/:str/:background/:color"/>
       </Router>
     </div>
   );
